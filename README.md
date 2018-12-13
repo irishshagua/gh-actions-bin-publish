@@ -1,2 +1,2 @@
-# gh-actions-bin-publish
-Testing out Github Actions for publishing a simple command line app
+# Complimentor
+Simple command line app to pay you a compliment. Repo is used to play with the GitHub actions beta

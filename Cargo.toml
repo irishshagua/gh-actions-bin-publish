@@ -1,0 +1,8 @@
+[package]
+name = "complimenter"
+version = "0.1.0"
+authors = ["Brian Mooney <brian_satchwannabe@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.6.1"

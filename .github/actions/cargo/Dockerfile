@@ -8,5 +8,3 @@ LABEL "com.github.actions.color"="orange"
 LABEL "repository"="https://github.com/irishshagua/gh-actions-bin-publish"
 LABEL "homepage"="https://irishshagua.github.io/"
 LABEL "maintainer"="Brian Mooney <brian_satchwannabe@hotmail.com>"
-
-COPY ../../../ .

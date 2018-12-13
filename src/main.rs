@@ -27,7 +27,7 @@ fn main() {
 fn test_bounded_rand_number() {
     for _ in 0..10000 {
         let num = bounded_rand_number(5);
-        assert!(num <= 5);
+        assert!(num >= 5);
     }
 }
 

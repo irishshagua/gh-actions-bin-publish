@@ -5,5 +5,5 @@ workflow "Complimenter Build Pipeline" {
 
 action "Cargo Test" {
   uses = "./.github/actions/cargo"
-  runs = "ls -thal"
+  runs = "cargo --version"
 }

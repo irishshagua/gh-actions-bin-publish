@@ -4,6 +4,6 @@ workflow "Complimenter Build Pipeline" {
 }
 
 action "Cargo Test" {
-  uses = "./actions/test_action"
-  runs = "echo \"Hello World!\""
+  uses = ".github/actions/cargo"
+  runs = "pwd; ls -thal; cargo test"
 }

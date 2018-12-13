@@ -9,5 +9,4 @@ LABEL "repository"="https://github.com/irishshagua/gh-actions-bin-publish"
 LABEL "homepage"="https://irishshagua.github.io/"
 LABEL "maintainer"="Brian Mooney <brian_satchwannabe@hotmail.com>"
 
-ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+COPY ../../../ .
